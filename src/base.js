@@ -3,9 +3,9 @@ import firebase from 'firebase/app'
 import 'firebase/database'
 
 const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyCVSfusywceAI2_aRm8__sRBlleWxFMe-M",
-    authDomain: "chatbox-app-a0326.firebaseapp.com",
-    databaseURL: "https://chatbox-app-a0326.firebaseio.com",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
 })
 
 const base = Rebase.createClass(firebase.database())
